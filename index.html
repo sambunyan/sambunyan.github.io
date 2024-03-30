@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+ <html lang="en'">
+
+ <head>
+     <title>Samuel Bunyan</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="software development">
+     <meta name="author" content="Samuel Bunyan">
+     <link href="css/styles.css" rel='stylesheet' type="text/css">
+     <script src="main.js">
+         >
+     </script>
+ </head>
+
+ <body>
+     <nav id="navbar">
+         <div class="navbar_container">
+             <h1 id="me"><a class="home" title="Home" href="#header">Samuel Bunyan</a></h1>
+             <div class="navbar_toggle" id="mobile_nav">
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+                 <span class="bar"></span>
+             </div>
+             <ul class="nav_ul">
+                 <li class="nav_item"><a class="nav_link" href="#about-me">About me</a></li>
+                 <li class="nav_item"><a class="nav_link" href="#projects">Projects</a></li>
+                 <li class="nav_item"><a class="nav_link" href="#skills_div">Skills</a></li>
+                 <li class="nav_btn"><a class="button" href="#contact-me">Say Hello!</a></li>
+             </ul>
+         </div>
+     </nav>
+     <script type="text/javascript">
+         const menu = document.querySelector("#mobile_nav")
+         const menuLink = document.querySelector('.nav_ul')
+
+         menu.addEventListener('click', function() {
+             menu.classList.toggle('is-active');
+             menuLink.classList.toggle('active');
+         });
+     </script>
+     <div id="intro">
+         <h1 id="wellcome">Hello, I'm Sam</h1>
+         <p id="description">web developer</p>
+     </div>
+
+     <div class="tilt">
+         <h1 id="abouth1">The full picture</h1>
+     </div>
+
+     <div id="about-me">
+         <p class="about">In 2023 I decided to reignite my passion for computer science, and coding was the perfect way to do this. I am currently expanding my knowledge by taking an online web and software development course with <span class="bold">ItonlineLearning</span>.Alongside this course I am learning through <span class="bold">FreeCodeCamp</span> and researching future projects.</p><br>
+         <p class="about">To keep track of my journey, I have been posting on <span class="bold">X</span> about what I am learning, challenges, and anything else related to my journey. To follow my journey or to check out my<span class="bold">Linkedin</span> please follow the links.</p>
+     </div>
+
+
+     <h1 id="projects">Projects</h1>
+
+     <p class="pro_text">Explore my programing journey through my projects (coming soon).</p>
+
+     <div id="skills-div">
+         <h1 id="skills">Skills</h1>
+     </div>
+     <h2 id="programh2">Programs I know:</h2>
+     <p id="program">I've been learning different programs since October 2023, and I will be continuing with expanding this list as time goes on.</p>
+
+
+     <div id="contact-div">
+         <h1 id="contact-me">Get In Touch!</h1>
+     </div>
+     <div id="parenthello">
+         <a id="hello" href="mailto:sam.p.bunyan@gmail.com">Say Hello</a>
+     </div>
+ </body>
+ <footer>
+     <p id="author">Samuel Bunyan</p>
+ </footer>
+
+ </html>
