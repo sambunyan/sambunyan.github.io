@@ -1,79 +1,80 @@
- <!DOCTYPE html>
- <html lang="en'">
+<!DOCTYPE html>
+<html lang="en'">
 
- <head>
-     <title>Samuel Bunyan</title>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="keywords" content="software development">
-     <meta name="author" content="Samuel Bunyan">
-     <link href="css/styles.css" rel='stylesheet' type="text/css">
-     <script src="main.js">
-         >
-     </script>
- </head>
+<head>
+	<title>Samuel Bunyan</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="software development">
+	<meta name="author" content="Samuel Bunyan">
+	<link href="css/styles.css" rel='stylesheet' type="text/css">
+	<script defer src="main.js"></script>
+</head>
 
- <body>
-     <nav id="navbar">
-         <div class="navbar_container">
-             <h1 id="me"><a class="home" title="Home" href="#header">Samuel Bunyan</a></h1>
-             <div class="navbar_toggle" id="mobile_nav">
-                 <span class="bar"></span>
-                 <span class="bar"></span>
-                 <span class="bar"></span>
-             </div>
-             <ul class="nav_ul">
-                 <li class="nav_item"><a class="nav_link" href="#about-me">About me</a></li>
-                 <li class="nav_item"><a class="nav_link" href="#projects">Projects</a></li>
-                 <li class="nav_item"><a class="nav_link" href="#skills_div">Skills</a></li>
-                 <li class="nav_btn"><a class="button" href="#contact-me">Say Hello!</a></li>
-             </ul>
-         </div>
-     </nav>
-     <script type="text/javascript">
-         const menu = document.querySelector("#mobile_nav")
-         const menuLink = document.querySelector('.nav_ul')
+<body>
+	<nav id="navbar">
+		<div class="navbar_container">
+			<h1 id="me"><a title="Home" class="home" href="#header">Samuel <span class="bunyan">Bunyan</span></a></h1>
+			<div id="mobile_nav" class="navbar_toggle">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="nav_ul">
+				<li class="nav_item"><a class="nav_link" href="#about-me">About me</a></li>
+				<li class="nav_item"><a class="nav_link" href=".projects">Projects</a></li>
+				<li class="nav_item"><a class="nav_link" href="#skills">Skills</a></li>
+				<li class="nav_btn"><a class="button" href="#contact-me">Say Hello!</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="animation">
+		<div id="hello-wrapper">
+			<h1>Hello,<br /> I'm Sam</h1>
+			<p>I'm a web developer</p>
+		</div>
+	</div>
+	</svg>
+	<div class="animation">
+		<div class="about-me">
+			<h1 id="about-h1">The full picture</h1>
+		</div>
 
-         menu.addEventListener('click', function() {
-             menu.classList.toggle('is-active');
-             menuLink.classList.toggle('active');
-         });
-     </script>
-     <div id="intro">
-         <h1 id="wellcome">Hello, I'm Sam</h1>
-         <p id="description">web developer</p>
-     </div>
+		<div id="about-p">
+			<p class="about">In 2023 I decided to reignite my passion for computer science, and coding was the perfect way to do this. I am currently expanding my knowledge by taking an online web and software development course with <span class="bold">ItonlineLearning</span>.Alongside this course I am learning through <span class="bold">FreeCodeCamp</span> and researching future projects.</p><br>
+			<p class="about">To keep track of my journey, I have been posting on <span class="bold">X</span> about what I am learning, challenges, and anything else related to my journey. To follow my journey or to check out my<span class="bold"> Linkedin</span> please follow the links.</p>
+		</div>
+	</div>
+	<div class="animation">
+		<div class="projects">
+			<h1 id="projects-h1">Projects</h1>
 
-     <div class="tilt">
-         <h1 id="abouth1">The full picture</h1>
-     </div>
+			<p class="projects-p">Explore my programing journey through my projects (coming soon).</p>
+		</div>
+	</div>
+	<div class="animation">
+		<div id="skills">
+			<h1 id="skills-h1">Skills</h1>
+			<h2 id="skills-h2">Programs I know:</h2>
+			<p id="skills-p">I've been learning different programs since October 2023, and I will be continuing with expanding this list as time goes on.</p>
+		</div>
+	</div>
+</body>
+<footer>
+	<div id="contact-me">
+		<h1 id="contact-h1">Get In Touch!</h1>
+		<a id="hello" href="mailto:sam.p.bunyan@gmail.com">Say Hello</a>
+	</div>
+	<p class="author">Samuel Bunyan</p>
+<div class="icons">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+		<path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+			<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+			<rect x="2" y="9" width="4" height="12"></rect>
+			<circle cx="4" cy="4" r="2"></circle>
+		</svg>
+</div>
+</footer>
 
-     <div id="about-me">
-         <p class="about">In 2023 I decided to reignite my passion for computer science, and coding was the perfect way to do this. I am currently expanding my knowledge by taking an online web and software development course with <span class="bold">ItonlineLearning</span>.Alongside this course I am learning through <span class="bold">FreeCodeCamp</span> and researching future projects.</p><br>
-         <p class="about">To keep track of my journey, I have been posting on <span class="bold">X</span> about what I am learning, challenges, and anything else related to my journey. To follow my journey or to check out my<span class="bold">Linkedin</span> please follow the links.</p>
-     </div>
-
-
-     <h1 id="projects">Projects</h1>
-
-     <p class="pro_text">Explore my programing journey through my projects (coming soon).</p>
-
-     <div id="skills-div">
-         <h1 id="skills">Skills</h1>
-     </div>
-     <h2 id="programh2">Programs I know:</h2>
-     <p id="program">I've been learning different programs since October 2023, and I will be continuing with expanding this list as time goes on.</p>
-
-
-     <div id="contact-div">
-         <h1 id="contact-me">Get In Touch!</h1>
-     </div>
-     <div id="parenthello">
-         <a id="hello" href="mailto:sam.p.bunyan@gmail.com">Say Hello</a>
-     </div>
- </body>
- <footer>
-     <p id="author">Samuel Bunyan</p>
- </footer>
-
- </html>
+</html>
